@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\buffer.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_filter.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_pair.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_ratelim.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_sock.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evmap.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evthread.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil_rand.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil_time.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\listener.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\log.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\signal.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\strlcpy.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evthread_win32.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\buffer_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_async.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\win32select.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event_tagging.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\http.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evdns.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evrpc.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Core">
+      <UniqueIdentifier>{A3E99D9F-7314-3878-88D2-59CC2A04F69A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Extra">
+      <UniqueIdentifier>{30DB183E-E93D-3553-89FA-FFBF55146B72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

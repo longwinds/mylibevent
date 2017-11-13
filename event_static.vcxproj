@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51CA7F36-69FA-3EA5-BD38-1F547D87E599}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>event_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\source\repos\Libevent\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">event_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">event</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\source\repos\Libevent\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">event_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">event</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Libevent\build\include;C:\Users\Administrator\source\repos\Libevent\include;C:\Users\Administrator\source\repos\Libevent\compat;C:\Users\Administrator\source\repos\Libevent;C:\Users\Administrator\source\repos\Libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Administrator/source/repos/Libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/source/repos/Libevent -BC:/Users/Administrator/source/repos/Libevent/build --check-stamp-file C:/Users/Administrator/source/repos/Libevent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Administrator/source/repos/Libevent/CMakeLists.txt;C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFunctionExistsEx.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFileOffsetBits.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckPrototypeDefinition.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckConstExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\AddCompilerFlags.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\VersionViaGit.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Users\Administrator\source\repos\Libevent\event-config.h.cmake;C:\Users\Administrator\source\repos\Libevent\evconfig-private.h.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\AddEventLibrary.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseArguments.cmake;C:\Users\Administrator\source\repos\Libevent\libevent_core.pc.in;C:\Users\Administrator\source\repos\Libevent\libevent_extra.pc.in;C:\Users\Administrator\source\repos\Libevent\libevent.pc.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfigBuildTree.cmake.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfig.cmake.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfigVersion.cmake.in;C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Administrator/source/repos/Libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Administrator/source/repos/Libevent -BC:/Users/Administrator/source/repos/Libevent/build --check-stamp-file C:/Users/Administrator/source/repos/Libevent/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Administrator/source/repos/Libevent/CMakeLists.txt;C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\3.10.0-rc4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFunctionExistsEx.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFileOffsetBits.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckPrototypeDefinition.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckFunctionKeywords.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\CheckConstExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\AddCompilerFlags.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\VersionViaGit.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Users\Administrator\source\repos\Libevent\event-config.h.cmake;C:\Users\Administrator\source\repos\Libevent\evconfig-private.h.cmake;C:\Users\Administrator\source\repos\Libevent\cmake\AddEventLibrary.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseArguments.cmake;C:\Users\Administrator\source\repos\Libevent\libevent_core.pc.in;C:\Users\Administrator\source\repos\Libevent\libevent_extra.pc.in;C:\Users\Administrator\source\repos\Libevent\libevent.pc.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfigBuildTree.cmake.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfig.cmake.in;C:\Users\Administrator\source\repos\Libevent\cmake\LibeventConfigVersion.cmake.in;C:\Users\Administrator\source\repos\Libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Administrator\source\repos\Libevent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\buffer.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_filter.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_pair.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_ratelim.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_sock.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evmap.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evthread.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil_rand.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evutil_time.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\listener.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\log.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\signal.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\strlcpy.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evthread_win32.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\buffer_iocp.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\bufferevent_async.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event_iocp.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\win32select.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\event_tagging.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\http.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evdns.c" />
+    <ClCompile Include="C:\Users\Administrator\source\repos\Libevent\evrpc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\source\repos\Libevent\build\ZERO_CHECK.vcxproj">
+      <Project>{EC1E560E-8B1A-3D35-82A4-E36A287D8AD5}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

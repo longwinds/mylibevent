@@ -1,0 +1,57 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/source/repos/Libevent/CMakeLists.txt
+C:/Users/Administrator/source/repos/Libevent/build/CMakeFiles/3.10.0-rc4/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Administrator/source/repos/Libevent/build/CMakeFiles/3.10.0-rc4/CMakeCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Administrator/source/repos/Libevent/build/CMakeFiles/3.10.0-rc4/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/CheckFunctionExistsEx.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/CheckFileOffsetBits.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckVariableExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/CheckPrototypeDefinition.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/CheckFunctionKeywords.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/CheckConstExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/AddCompilerFlags.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/VersionViaGit.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeConfigurableFile.in
+C:/Users/Administrator/source/repos/Libevent/event-config.h.cmake
+C:/Users/Administrator/source/repos/Libevent/evconfig-private.h.cmake
+C:/Users/Administrator/source/repos/Libevent/cmake/AddEventLibrary.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeParseArguments.cmake
+C:/Users/Administrator/source/repos/Libevent/libevent_core.pc.in
+C:/Users/Administrator/source/repos/Libevent/libevent_extra.pc.in
+C:/Users/Administrator/source/repos/Libevent/libevent.pc.in
+C:/Users/Administrator/source/repos/Libevent/cmake/LibeventConfigBuildTree.cmake.in
+C:/Users/Administrator/source/repos/Libevent/cmake/LibeventConfig.cmake.in
+C:/Users/Administrator/source/repos/Libevent/cmake/LibeventConfigVersion.cmake.in
